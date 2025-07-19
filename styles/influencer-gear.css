@@ -84,10 +84,8 @@
     font-weight: 600;
 }
 
-.nav-2 {
-    justify-content: space-between;
-    align-items: center;
-    visibility: hidden;
+.nav-mobile {
+    display: none;
 }
 
 .fa-solid {
@@ -124,7 +122,8 @@
 .banner-image {
     background-image: url(../images/Circle\ design.svg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
+    padding: 20px;
 }
 
 /* .banner-image img{
